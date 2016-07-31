@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MyWebRecipe.SiteMaster" %>
+
+<%--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Web Recipe</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+   <link rel="stylesheet" href="Content/bootstrap.min.css">
+  <script src="Scripts/jquery-1.10.2.min.js"></script>
+  <script src="Scripts/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>My Web Recipe</h2>
+  <p></p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="success">
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="danger">
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="info">
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
+
+--%>
+
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+    
+    <link rel="stylesheet" href="Content/bootstrap.min.css">
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <title>My Web Recipe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+       
+
+</head>
+<body>
+    <form runat="server">
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            <h2>My Web Recipe</h2>
+            <p></p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Tittle</th>
+                        <th>Link</th>
+                        <th>Publish date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% 
+
+                        RecipeBook rp = new RecipeBook();
+                        ArrayList rt = rp.GiveMeArrayList("https://channel9.msdn.com/feeds/rss");
+                        rt.Sort(new RecipeBook.ItemComparer()); //Sort by Publish date
+                        rt.Reverse();                           // order desc
+                        for (int i=0;i<rt.Count;i++)
+                        {
+                            RecipeBook.Item itm = (RecipeBook.Item)rt[i];
+                            %><tr>
+                            <td><% =itm.Tittle %></td>
+                            <td><a href="<% =itm.Link %>"target="_blank" id="code" type="submit" class="btn btn-warning" style="width:80px;"><span class="glyphicon glyphicon-link"></span></a></td>   
+                            <td><% =itm.PublishDate.Date.ToShortDateString() %></td> 
+                     <%}%>
+                  
+                </tbody>
+            </table>
+        </div>
+
+      
+        <%--<div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+              
+            </asp:ContentPlaceHolder>
+        </div>--%>
+    </form>
+</body>
+</html>
