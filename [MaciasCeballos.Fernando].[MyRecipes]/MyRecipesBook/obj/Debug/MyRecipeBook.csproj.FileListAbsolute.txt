@@ -1,0 +1,5 @@
+c:\users\rocío\documents\visual studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\MyRecipesBook\bin\Debug\MyRecipesBook.dll
+c:\users\rocío\documents\visual studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\MyRecipesBook\bin\Debug\MyRecipesBook.pdb
+c:\users\rocío\documents\visual studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\MyRecipesBook\obj\Debug\MyRecipeBook.csprojResolveAssemblyReference.cache
+c:\users\rocío\documents\visual studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\MyRecipesBook\obj\Debug\MyRecipesBook.dll
+c:\users\rocío\documents\visual studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\MyRecipesBook\obj\Debug\MyRecipesBook.pdb
