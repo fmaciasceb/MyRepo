@@ -1,0 +1,32 @@
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\bin\Debug\My1stRecipe.exe.config
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\bin\Debug\My1stRecipe.exe
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\bin\Debug\My1stRecipe.pdb
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\bin\Debug\RecipeBook.dll
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\bin\Debug\RecipeBook.pdb
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.csprojResolveAssemblyReference.cache
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.Properties.Resources.resources
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.csproj.GenerateResource.Cache
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.exe
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.pdb
+c:\users\rocío\documents\visual studio 2015\Projects\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.frmMain.resources
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\bin\Debug\My1stRecipe.exe.config
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.exe
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.pdb
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\bin\Debug\My1stRecipe.exe
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\bin\Debug\My1stRecipe.pdb
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.csprojResolveAssemblyReference.cache
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.frmMain.resources
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.Properties.Resources.resources
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.csproj.GenerateResource.Cache
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\bin\Debug\MyRecipesBook.dll
+C:\Users\Rocío\Desktop\My1stRecipe\My1stRecipe\bin\Debug\MyRecipesBook.pdb
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\bin\Debug\My1stRecipe.exe.config
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.exe
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.pdb
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\bin\Debug\My1stRecipe.exe
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\bin\Debug\My1stRecipe.pdb
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\bin\Debug\MyRecipesBook.pdb
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.csprojResolveAssemblyReference.cache
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.frmMain.resources
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.Properties.Resources.resources
+C:\Users\Rocío\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\My1stRecipe\My1stRecipe\obj\Debug\My1stRecipe.csproj.GenerateResource.Cache

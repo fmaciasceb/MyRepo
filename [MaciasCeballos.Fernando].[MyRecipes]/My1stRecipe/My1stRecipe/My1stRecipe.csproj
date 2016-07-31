@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F53D68C9-4485-4091-8AB3-3B39818D0DFE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>My1stRecipe</RootNamespace>
+    <AssemblyName>My1stRecipe</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>My1stRecipe.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MyRecipesBook">
+      <HintPath>..\..\..\Documents\Visual Studio 2015\Projects\[MaciasCeballos.Fernando].[MyRecipes]\MyRecipesBook\bin\Debug\MyRecipesBook.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shadows.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\demo64.png" />
+    <None Include="Resources\Demoversion-Stempel.png" />
+    <None Include="Resources\star16_white.png" />
+    <None Include="Resources\star_16.png" />
+    <None Include="Resources\star_24.png" />
+    <None Include="Resources\star24_white.png" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\linked2.png" />
+    <None Include="Resources\linked.png" />
+    <None Include="Resources\point.png" />
+    <None Include="Resources\me_2.png" />
+    <None Include="Resources\me.png" />
+    <None Include="Resources\white_star21.png" />
+    <None Include="Resources\all.png" />
+    <None Include="Resources\white_star2.png" />
+    <None Include="Resources\white_star1.png" />
+    <None Include="Resources\white_star.png" />
+    <None Include="Resources\all_64.png" />
+    <None Include="Resources\cross_red.png" />
+    <None Include="Resources\reload_red.png" />
+    <None Include="Resources\all32.png" />
+    <None Include="Resources\all48.png" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\whatsback.png" />
+    <None Include="Resources\paper.jpg" />
+    <None Include="Resources\reload.png" />
+    <None Include="Resources\radio %281%29.gif" />
+    <None Include="Resources\radio_white.gif" />
+    <None Include="Resources\radio.gif" />
+    <None Include="Resources\gears.gif" />
+    <None Include="Resources\rss_24.png" />
+    <None Include="Resources\rss.png" />
+    <None Include="Resources\cross.png" />
+    <None Include="Resources\gears.png" />
+    <None Include="Resources\BL_WHITE.jpg" />
+    <None Include="Resources\TR_WHITE.jpg" />
+    <None Include="Resources\TL_WHITE.jpg" />
+    <None Include="Resources\T_WHITE.jpg" />
+    <None Include="Resources\R_WHITE.jpg" />
+    <None Include="Resources\L_WHITE.jpg" />
+    <None Include="Resources\BR_WHITE.jpg" />
+    <None Include="Resources\B_WHITE.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
